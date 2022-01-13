@@ -4,7 +4,6 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, chat, message, 
 import random
 import nltk
 import json
-from QandA import ask
 
 
 API_KEY="5003371417:AAHY5M5l1BRepyt787fM45TC_4zWVcyQT7Q"
@@ -37,7 +36,7 @@ def question(update,context):
 	query=update.callback_query
 	context.user_data['message_id']=query.message.message_id
 	context.bot.edit_message_text(chat_id=query.message.chat_id,message_id= query.message.message_id,text="you can ask what you want about astu")
-	
+
 
 def school(update,context):
 	with open('about.json') as f:
