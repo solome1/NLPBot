@@ -5,7 +5,7 @@ import random
 import nltk
 import json
 
-
+print("hello world")
 API_KEY="5003371417:AAHY5M5l1BRepyt787fM45TC_4zWVcyQT7Q"
 
 A,B,C= range(3)
