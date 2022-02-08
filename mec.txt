@@ -1,56 +1,38 @@
 School of Mechanical, Chemical & Materials Engineering (SoMCME)
 Description of the School
 The School of Mechanical, Chemical and Materials Engineering came in to existence following the new structure of ASTU and it encompass Engineering programs related to Mechanical Engineering, Chemical Engineering, Materials Engineering, and Agricultural Mechanization Engineering. Currently, the School has developed Curricula for five Undergraduate Programs (Thermal and Aerospace Engineering, Chemical Engineering, Mechanical Design and Manufacturing Engineering, Materials Science and Engineering, and Mechanical Systems and Vehicle Engineering. It has also three Postgraduate Programs running under two of its current Departments (namely Manufacturing Engineering, Automotive Engineering and Agricultural machinery Engineering). New UG and PG programs will be opened based on the needs of the country in the years to come.
-
 The School of Mechanical, Chemical and Materials Engineering  is aimed at producing skilled professionals on the areas of Chemical Industries, Automotive Industries, Metal and Agricultural manufacturing industries which highly contribute for the economic development and transformation of the country.
-
 Program description of each of the five undergraduate (UG) programs:
-
 Short Description of the Programs
 Thermal and Aerospace Engineering
-
 Thermal and Aerospace Engineering a field of study which is  a combination of two very similar fields of mechanical engineering namely, thermal and aerospace engineering. Students will choose their destiny based on the available elective courses.
-
 Thermal engineering is a branch of engineering that applies scientific knowledge to the design, manufacturing and operation of thermal and flow equipments and systems. The fundamental principles of thermal engineering apply to all equipments and systems that involve, heat generation, heat transfer, cooling, heating, and fluid flow such as pumps, compressors, turbines, fans, blowers, boilers, refrigerators, air conditioners and so on. The fundamental mechanical engineering courses are supplemented with additional fluid mechanics courses to include compressible flow and aerodynamics; additional thermodynamics, turbo machinery, refrigeration engineering, air conditioning engineering, design of heat exchangers and the likes.
-
 Aerospace Engineering is the branch of engineering that applies scientific knowledge to the design, manufacture and operation of aircraft. The fundamental disciplines of the branch of engineering apply to all bodies and vehicles whose applied loads are influenced by aerodynamic forces. Within this context, aeronautical engineers are involved with automobiles, trains, ships, submarines, aircraft, rockets and missiles, sports equipment and a variety of energy systems. Courses in fundamental engineering principles are supplemented with courses in propulsion, aerodynamics, performance, stability and control, aircraft preliminary design, aeronautical structures, and aero elasticity. The undergraduate curriculum in aerospace engineering includes courses in subsonic and supersonic aero dynamics, propulsion, controls and performance, light-weight structures, spacecraft dynamics, and advanced materials.
-
 Chemical Engineering
-
 Chemical engineering applies the natural (or experimental) sciences and life sciences together with mathematics and economics to produce, transform, transport, and properly use chemicals, materials and energy. It essentially deals with the engineering of chemicals, energy and the processes that create and/or convert them. Chemical engineering is concerned with processes that convert raw materials or chemicals into more useful or valuable forms in the most economic and environmentally friendly manner. It is also concerned with pioneering valuable materials and related techniques. Chemical engineering therefore focuses on various processes that cause chemical, physical, biological and energy changes in addition to designing and inventing the way to do so. Basic principles in mathematics, chemistry, physics and biology are interpreted to application to the processes abovementioned.
-
 Competences expected of graduates of the Program
-
 Design processes, equipments and plants for chemical, food, petrochemical. Pharmaceutical and other manufacturing industries.
 Ensure efficient, safe and environmentally responsible plant operation and management.
 Doing researches in relation to Product Development, Process Optimization, environmental safety, Energy and other important issues
 Teach both the fundamentals of Chemical Engineering as well as advanced topics based on practical experiences in process and related industries.
 Work in multidisciplinary environment, challenging situations as well as under the conditions of globalization-in international cooperation.
 Mechanical Design and Manufacturing Engineering
-
 The aim of this program is to enable students to develop a thorough understanding of engineering design and manufacturing principles and apply that understanding to the design and manufacture of products, processes or systems at an overall or detail level. Modern design techniques and manufacturing technologies are thoroughly explained. Modules on design, processes, methods, tooling, CAD/CAM, planning and management are the core of the program.
-
 This program ensures application of appropriate design and manufacturing processes and cost effective utilization of manufacturing tools, materials, equipment and manpower to manufacture parts. The program provides graduates with a unique blend of theoretical and hands-on-knowledge with computer integration in a manufacturing environment that directly corresponds to modern applications used in industry. Graduates are employed in a wide variety of areas relevant to manufacturing industries.
 
 By completing the program, students are able to:
-
 Evaluate and use appropriate design methods to solve design problems.  Develop an effective manufacturing process planning
 Integrate the application of engineering design methods with manufacturing technology principles.
 Plan, conduct and report research on an aspect of engineering design and manufacturing.
 Apply academic theory, knowledge and work experience to identify, define and solve real-life engineering design and manufacturing problems.
 Materials Science and Engineering
-
 Materials Science and Engineering deal with the exploration of the relationship between structure and properties of all classes of materials including metals, ceramics, electronic materials, and biomaterials.  It incorporates elements of physics and chemistry. It also deals with production and synthesis of these materials. It is an important part of forensic engineering (the investigation of materials, products, structures or components that fail or do not operate or function as intended) and failure analysis, the latter being the key to understanding the cause of various accidents. Many of the most pressing scientific problems that are faced today are due to the limitations of the materials that are available and, as a result, breakthroughs in this field are likely to have a significant impact on the future. This program interweaves science and engineering of materials.
-
 Specific study areas covered by the department are:
-•    Metallurgical Engineering
-•    Ceramic Engineering
-•    Polymer (Textile) Engineering
-•    Semiconductor Engineering
-•    Energy and Environmental Materials
-
+Metallurgical Engineering
+Ceramic Engineering
+Polymer (Textile) Engineering
+Semiconductor Engineering
+Energy and Environmental Materials
 After successful completion of courses in Materials Engineering, the graduates will be awarded: “Degree of Bachelor of Science in Materials Science and Engineering”. ASTU's Materials Engineering Specialists are believed to contribute significantly to the Science and Technology Innovation (STI)-led industrialization of Ethiopia through emphasizing both economic development and program-industry cooperation.
-
 Mechanical Systems and Vehicle Engineering
-
 Trained human resource is by far the most decisive components of the development period. The training program must be proper and aligned with the objective factor of specific area. Mechanical Systems and Vehicle Engineering Program of Adama Science and Technology University will be introduced for 2007 entry students after the university has been distinguished as one of Science and Technology University of the country. This program is the composition of Automotive, Farm Machinery and Mechanical Systems Engineering. It deals with application of mechanical, physical and electronic principles to solve the real-life problems based on the issues in design, construction, operation and maintenance related to mechanical systems and vehicle engineering. The program  is believed  to be motive force  to cultivate  the  potential  of  students,  and  the advancement  of  all  forms  of  knowledge  keeping  in  pace  with  international standards  of  academic  quality,  including  the  high  skilled  employment, to meet  the  growing economy operating in global environment.

@@ -12,7 +12,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # importing and reading the corpus 
-# 
 f=open('all.txt','r',errors='ignore')
 raw_doc=f.read()
 raw_doc=raw_doc.lower()   #converts text to lowercase

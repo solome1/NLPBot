@@ -34,43 +34,32 @@ def about(update, context):
 	context.bot.send_document(chat_id=update.effective_chat.id, document = open('astu.txt'))
 
 
-def contact(update,context):
-	query= update.callback_query
-	context.user_data['message_id'] =query.message.message_id
+
+def program(update, context):
+	query = update.callback_query
+	context.user_data['message_id'] = query.message.message_id
 	keyboard=[
-		[InlineKeyboardButton("Facebook Account",callback_data='facebook')],
-		[InlineKeyboardButton("Email",callback_data='email')],
-		[InlineKeyboardButton("Website",callback_data='web')],
-		[InlineKeyboardButton("phone",callback_data='phone')]
+		[
+			InlineKeyboardButton("Undergrauate", callback_data="Undergrauat"),
+			InlineKeyboardButton("Postgraduate", callback_data="Postgradat")
+		]
 	]
-	reply_markup=InlineKeyboardMarkup(keyboard)
+	reply_markup = InlineKeyboardMarkup(keyboard)
+
 	context.bot.edit_message_text(
-		chat_id=query.message.chat_id,
+		chat_id = query.message.chat_id,
 		message_id = query.message.message_id,
-		text="We're on Social Networks.Follow us & get in touch",
+		text = "choose: ",
 		reply_markup = reply_markup
-	)
-	return D
+		)
+	return B
 
-def facebook(update,context):
-	context.bot.send_message(chat_id=update.effective_chat.id,text="https://www.facebook.com/adamaastu/",parse_mode=ParseMode.HTML)
-def web(update,context):
-	context.bot.send_message(chat_id=update.effective_chat.id,text="http://www.astu.edu.et/",parse_mode=ParseMode.HTML)
-def email(update,context):	
-	context.bot.send_message(chat_id=update.effective_chat.id,text="irccd@astu.edu.et",parse_mode=ParseMode.HTML)
-def phone(update,context):
-	query=update.callback_query
-	context.user_data['message_id']=query.message.message_id
-	context.bot.edit_message_text(chat_id=query.message.chat_id,message_id= query.message.message_id,text="International Relations and Corporate Communications\nOffice: +251 -22-211-3961\n\n Office of Registrar \n Office: +251 -221-100001")
-	
-	
+def Undergrauat(update, context):
+	context.bot.send_document(chat_id = update.effective_chat.id, document =open('undergraduate.txt'))
 
+def Postgradat(update,context):
+	context.bot.send_document(chat_id= update.effective_chat.id, document=open('postgraduate.txt'))
 
-def question(update,context):
-	query=update.callback_query
-	context.user_data['message_id']=query.message.message_id
-	context.bot.edit_message_text(chat_id=query.message.chat_id,message_id= query.message.message_id,text="you can ask what you want about astu")
-	
 
 def school(update,context):
 	query =update.callback_query
@@ -109,37 +98,48 @@ def mechanical(update,context):
 
 
 
-def program(update, context):
-	query = update.callback_query
-	context.user_data['message_id'] = query.message.message_id
-	keyboard=[
-		[
-			InlineKeyboardButton("Undergrauate", callback_data="Undergrauat"),
-			InlineKeyboardButton("Postgraduate", callback_data="Postgradat")
-		]
-	]
-	reply_markup = InlineKeyboardMarkup(keyboard)
-
-	context.bot.edit_message_text(
-		chat_id = query.message.chat_id,
-		message_id = query.message.message_id,
-		text = "choose: ",
-		reply_markup = reply_markup
-		)
+def question(update,context):
+	query=update.callback_query
+	context.user_data['message_id']=query.message.message_id
+	context.bot.edit_message_text(chat_id=query.message.chat_id,message_id= query.message.message_id,text="you can ask what you want about astu")
 	
-	return B
-
-def Undergrauat(update, context):
-	context.bot.send_document(chat_id = update.effective_chat.id, document =open('undergraduate.txt'))
-
-def Postgradat(update,context):
-	context.bot.send_document(chat_id= update.effective_chat.id, document=open('postgraduate.txt'))
-
 
 def answer(update, context):
 	text = update.message.text
 	mess = botReact(text)
 	context.bot.send_message(chat_id = update.message.chat_id, text = mess)	
+
+
+
+def contact(update,context):
+	query= update.callback_query
+	context.user_data['message_id'] =query.message.message_id
+	keyboard=[
+		[InlineKeyboardButton("Facebook Account",callback_data='facebook')],
+		[InlineKeyboardButton("Email",callback_data='email')],
+		[InlineKeyboardButton("Website",callback_data='web')],
+		[InlineKeyboardButton("phone",callback_data='phone')]
+	]
+	reply_markup=InlineKeyboardMarkup(keyboard)
+	context.bot.edit_message_text(
+		chat_id=query.message.chat_id,
+		message_id = query.message.message_id,
+		text="We're on Social Networks.Follow us & get in touch",
+		reply_markup = reply_markup
+	)
+	return D
+
+def facebook(update,context):
+	context.bot.send_message(chat_id=update.effective_chat.id,text="https://www.facebook.com/adamaastu/",parse_mode=ParseMode.HTML)
+def web(update,context):
+	context.bot.send_message(chat_id=update.effective_chat.id,text="http://www.astu.edu.et/",parse_mode=ParseMode.HTML)
+def email(update,context):	
+	context.bot.send_message(chat_id=update.effective_chat.id,text="irccd@astu.edu.et",parse_mode=ParseMode.HTML)
+def phone(update,context):
+	query=update.callback_query
+	context.user_data['message_id']=query.message.message_id
+	context.bot.edit_message_text(chat_id=query.message.chat_id,message_id= query.message.message_id,text="International Relations and Corporate Communications\nOffice: +251 -22-211-3961\n\n Office of Registrar \n Office: +251 -221-100001")
+
 
 
 def main():
@@ -153,7 +153,7 @@ def main():
 				CallbackQueryHandler(program, pattern = "^(program)$"),
 				CallbackQueryHandler(school,  pattern = "^(school)$"),
 				CallbackQueryHandler(question,pattern = "^(question)$"),
-				CallbackQueryHandler(contact,    pattern="^(contact)$")],
+				CallbackQueryHandler(contact, pattern="^(contact)$")],
 
 			B: [CallbackQueryHandler(Postgradat, pattern = "^(Postgradat)$"),
 				CallbackQueryHandler(Undergrauat, pattern = "^(Undergrauat)$")],
